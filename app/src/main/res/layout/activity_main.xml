@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:weightSum="7"
+        android:gravity="center">
+
+
+
+    <TextView android:text="My Nanodegree Apps!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#424242"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/spotify_app"
+        android:background="#FF9800"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:onClick="Notify1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/football"
+        android:background="#FF9800"
+        android:layout_weight="1"
+        android:onClick="Notify2"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/library_app"
+        android:layout_weight="1"
+        android:background="#FF9800"
+        android:onClick="Notify3"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Build It Bigger"
+        android:background="#FF9800"
+        android:onClick="Notify4"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="XYZ Reader"
+        android:background="#FF9800"
+        android:onClick="Notify5"
+        android:layout_marginBottom = "10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Capstone: My Own App"
+        android:onClick="Notify6"
+        android:background="#F44336"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>
